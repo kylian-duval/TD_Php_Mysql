@@ -1,8 +1,6 @@
 <?php function menu()
 { ?>
-  <meta charset="utf-8">
   <link rel="stylesheet" href="menu.css">
-  <title>Un menu déroulant en CSS3</title>
   <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
   <script type="text/javascript">
     $(function() {
@@ -23,43 +21,41 @@
     <ul id="menu">
       <li><a href="">Accueil</a></li>
       <li>
-        <a href="#">Categories</a>
+        <a href="#">EXERCICE HTML</a>
         <ul>
           <li>
-            <a href="#">CSS</a>
-            <ul>
-              <li><a href="#">Item 11</a></li>
-              <li><a href="#">Item 12</a></li>
-              <li><a href="#">Item 13</a></li>
-              <li><a href="#">Item 14</a></li>
-            </ul>
+            <a href="/html/exo1.php">EXERCICE 1</a>
           </li>
           <li>
-            <a href="#">Graphic design</a>
-            <ul>
-              <li><a href="#">Item 21</a></li>
-              <li><a href="#">Item 22</a></li>
-              <li><a href="#">Item 23</a></li>
-              <li><a href="#">Item 24</a></li>
-            </ul>
+            <a href="/html/exo2.php">EXERCICE 2</a>
           </li>
           <li>
-            <a href="#">Development tools</a>
-            <ul>
-              <li><a href="#">Item 31</a></li>
-              <li><a href="#">Item 32</a></li>
-              <li><a href="#">Item 33</a></li>
-              <li><a href="#">Item 34</a></li>
-            </ul>
+            <a href="/html/formulaire.php">EXO TABLEAU</a>
           </li>
           <li>
-            <a href="#">Web design</a>
-            <ul>
-              <li><a href="#">Item 41</a></li>
-              <li><a href="#">Item 42</a></li>
-              <li><a href="#">Item 43</a></li>
-              <li><a href="#">Item 44</a></li>
-            </ul>
+            <a href="/html/tableau.php">EXO FORMULAIRE</a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">EXERCICE CSS</a>
+        <ul>
+          <li>
+            <a href="#">EXERCICE 1</a>
+          </li>
+          <li>
+            <a href="#">EXERCICE 2</a>
+          </li>
+          <li>
+            <a href="#">EXERCICE 3</a>
+          </li>
+          <li>
+            <a href="#">EXERCICE 4</a>
+          </li>
+          <li>
+            <a href="#">EXERCICE 5</a>
+          <li>
+            <a href="#">EXERCICE 6</a>
           </li>
         </ul>
       </li>
@@ -143,60 +139,26 @@
             <ul align=left>
               <li>
                 <a href="#">EXO 2 REQUETTE 1 A 9</a>
-                <ul>
-                  <li>
-                    <a href="#">Work 311</a>
-                  </li>
-                  <li>
-                    <a href="#">Work 312</a>
-                  </li>
-                  <li>
-                    <a href="#">Work 313</a>
-                  </li>
-                </ul>
-              </li>
-              <li>
-                <a href="#">Work 32</a>
-                <ul>
-                  <li>
-                    <a href="#">Work 321</a>
-                  </li>
-                  <li>
-                    <a href="#">Work 322</a>
-                  </li>
-                  <li>
-                    <a href="#">Work 323</a>
-                  </li>
-                </ul>
-              </li>
-              <li>
-                <a href="#">Work 33</a>
-                <ul>
-                  <li>
-                    <a href="#">Work 331</a>
-                  </li>
-                  <li>
-                    <a href="#">Work 332</a>
-                  </li>
-                  <li>
-                    <a href="#">Work 333</a>
-                  </li>
-                </ul>
               </li>
             </ul>
           </li>
+          <li>
+          <a href="#">TD 4</a>
+          <ul>
+            <li>
+              <a href="#">EXERCICE 1</a>
+            </li>
+            <li>
+              <a href="#">EXERCICE 2</a>
+            </li>
+            <li>
+              <a href="#">EXERCICE 3</a>
+            </li>
+          </ul>
+        </li>
         </ul>
-      </li>
-      <li>
-        <a href="#">About</a>
-      </li>
-      <li>
-        <a href="#">Contact</a>
       </li>
     </ul>
 
     <br><br><br>
-
-
-
   <?php } ?>

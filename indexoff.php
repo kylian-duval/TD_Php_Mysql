@@ -7,7 +7,6 @@
 <?php include "fonction.php";
     menu();
     ?>
-</head>
     
     
 
