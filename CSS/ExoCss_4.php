@@ -6,9 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="ExoCss_4.css">
-</head>
-
-<body>
+    <?php include "fonction.php";
+    menu(); ?>
     <div>
         <header class="blue">
             <span>Bandeau</span>
@@ -38,8 +37,6 @@
             <span>pied de page</span>
         </footer>
     </div>
-    <input type=button onclick=window.location.href='index.html'; value="retour" />
-
 </body>
 
 </html>
