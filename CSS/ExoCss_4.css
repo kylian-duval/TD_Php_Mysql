@@ -39,12 +39,12 @@ nav.menub{
 aside.bloc{
 
     background-color:#FF3300;
-    float:;
+    position: relative;
+    float: right;
 	width:150px;
 	height:150px;
-    position: absolute;
-    top: 238px;
-    right: 194px;
+    bottom: 540px;
+    right: 0px;
     text-align:center;
     font-size: 20px;
     

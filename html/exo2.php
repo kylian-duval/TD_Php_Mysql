@@ -1,8 +1,8 @@
 <html>
 
 <head>
-</head>
-    <body>
+<?php include "fonction.php";
+    menu(); ?>
         <p>
             <hr>
         </p>
@@ -39,8 +39,6 @@
         <h4>titre 4</h4>
         <h5>titre 5</h5>
         <h6>titre 6</h6>
-
-        <input type="button" value="Retour" onclick="history.back()">
     </body>
 </html>
 

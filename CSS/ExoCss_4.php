@@ -27,6 +27,7 @@
         <section class="jaune">
 
             <span>contenu</span>
+
         </section>
         <aside class="bloc">
             <span>bloc nows</span>
@@ -37,6 +38,6 @@
             <span>pied de page</span>
         </footer>
     </div>
-</body>
+    </body>
 
 </html>

@@ -1,9 +1,14 @@
 body {
-    /*background: url("http://www.red-team-design.com/wp-content/uploads/2012/02/grid.png") repeat scroll 0 0 #F5F5F5;*/
+    /*background-image: url(https://i.pinimg.com/originals/c2/0d/35/c20d35ae688a1ab860f4681dc8b21796.gif);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;*/
     width: 960px;
+    /*height: 4000px;*/
     margin: 40px auto;
     -webkit-animation: random 15s infinite;
-    animation: random 15s infinite;*/
+    animation: random 40s infinite;
 }
 @keyframes random {
     15% {

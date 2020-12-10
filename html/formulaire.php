@@ -2,9 +2,8 @@
 
 <head>
     <title> formulaire 1</title>
-</head>
-
-<body>
+    <?php include "fonction.php";
+    menu(); ?>
     <div>
         <p>
             <span>Civilité:</span>
@@ -99,14 +98,11 @@
     </div>
     <div>
         <p>
-            <input type="submit">
-        <form action="formulaire1.html">
-            <input type="submit" value="envoyé"></form>
+            <form action='' method="$_POST">
+                <input type="submit" value="envoyé">
+            </form>
         </p>
     </div>
-
-    <input type="button" value="Retour" onclick="history.back()">
-
-</body>
+    </body>
 
 </html>
