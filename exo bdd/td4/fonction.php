@@ -27,4 +27,6 @@ function InsertMedecin($numSS,$nom,$prénon){
     $BDD->query("$roquette");
 
 }
+
 ?>
+
