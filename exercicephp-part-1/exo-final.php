@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -10,7 +11,7 @@
 
 
 
-    <?php session_start();
+    <?php 
     $nom = 'Julien';
     $password = '1234';
 
