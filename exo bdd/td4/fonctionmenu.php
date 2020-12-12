@@ -1,6 +1,6 @@
 <?php function menu()
 { ?>
-  <link rel="stylesheet" href="../menu.css">
+  <link rel="stylesheet" href="../../menu.css">
   <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
   <script type="text/javascript">
     $(function() {
