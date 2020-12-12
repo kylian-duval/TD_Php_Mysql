@@ -1,6 +1,7 @@
 <?php
  include("fonction/exofinal.php");
-?>
+ include "fonction.php";
+    menu(); ?>
 <!DOCTYPE html>
 <html>
 <head>

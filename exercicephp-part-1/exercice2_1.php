@@ -2,9 +2,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-</head>
-
-<body>
+    <?php include "fonction.php";
+    menu(); ?>
     <p>
         <h1> exercice2.1 A </h1>
         <?php
