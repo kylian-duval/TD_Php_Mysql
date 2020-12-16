@@ -5,15 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="ExoCss_2a.css">
     <?php include "fonction.php";
-     include "fonctionmenu.php";
-    menu(); 
+    menu(); ?>
 
-    afficher_requet_select("SELECT `nom`,`prenom` FROM `patient` WHERE 1");
-    highlight_file(__FILE__);
 
-    ?>
- 
+<p><span class="rouge"> couleur rouge 30px </span> <span class="bleu"> couleur bleu 20px.</span></p>
 </body>
 
 </html>

@@ -1,30 +1,16 @@
-<?php
- include("fonction/exofinal.php");
- include "fonction.php";
-    menu(); ?>
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
- <meta charset='utf-8'>
- <meta http-equiv='X-UA-Compatible' content='IE=edge'>
- <title>Page Title</title>
- <meta name='viewport' content='width=device-width, initial-scale=1'>
- <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
- <script src='main.js'></script>
-</head>
-<body>
- Je suis dans applications dans le dossier MANP
- <?php echo "je suis php";?>
- <h1>Correction TP2 exercice 4 <h1>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <?php include 'fonction/fonction.php'; 
+    include 'fonction.php';
+    menu();
+    ?>
 
- <?php
- $MotDepass = "toto";
-
- if (afficheFormulaire($MotDepass) == "OK"){
- ?>
- <a href="http://google.com"> OK go google </a>
- <?php
- }
- ?>
+    <?php connection(); 
+    highlight_file((__FILE__))
+    ?>
 </body>
 </html>

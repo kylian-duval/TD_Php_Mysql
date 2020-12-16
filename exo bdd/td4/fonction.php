@@ -8,7 +8,7 @@ function afficher_requet_select($marequete){
     while ($tabBdd = $donneBDD -> fetch()){  
         echo '<tr>';
         echo '<td align=center><span>' .$tabBdd["nom"]. '</span></td>';
-        echo '<td align=center><span>' .$tabBdd["prénon"]. '</span></td>';
+        echo '<td align=center><span>' .$tabBdd["prenom"]. '</span></td>';
         echo '</tr>';
     
     }
@@ -22,7 +22,7 @@ echo '<span style=color:red> J`ai eu un problème erreur <\span>';
 function InsertMedecin($numSS,$nom,$prénon){
 
     $BDD = new PDO('mysql:host=192.168.65.227; dbname=TD2 exo 2 kylian;charset=utf8','kiki', 'kiki');
-    $roquette = ("INSERT INTO `Medecin`(matricule, nom, prénon) VALUE('".$numSS."','".$nom."', '".$prénon."')");
+    $roquette = ("INSERT INTO `medecin`(matricule, nom, prenom) VALUE('".$numSS."','".$nom."', '".$prénon."')");
 
     $BDD->query("$roquette");
 

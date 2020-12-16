@@ -11,7 +11,7 @@
 
 
     <?php
-  InsertMedecin('2000', 'duval', 'kylian');
+  InsertMedecin('21000', 'laurent', 'trump');
     highlight_file(__FILE__);
 
     ?>

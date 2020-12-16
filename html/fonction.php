@@ -52,9 +52,9 @@
             <a href="../CSS/ExoCss_4.php">EXERCICE 4</a>
           </li>
           <li>
-            <a href="#">EXERCICE 5</a>
+            <a href="../../ExoCss_1a.php">EXERCICE 1a</a>
           <li>
-            <a href="#">EXERCICE 6</a>
+            <a href="../../ExoCss_2a.php">EXERCICE 2a</a>
           </li>
         </ul>
       </li>

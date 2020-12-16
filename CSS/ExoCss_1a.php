@@ -1,17 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <?php include "fonction/fonction.php" ;
-    include "fonction.php";
+    <link rel="stylesheet" href="ExoCss_1a.css">
+    <?php include "fonction.php";
     menu(); ?>
-</head>
-<body>
-<?php
-    calcul();
-    highlight_file((__FILE__))
-    ?>
 
+
+<p>couleur bleu 20px</p>
 </body>
 
 </html>

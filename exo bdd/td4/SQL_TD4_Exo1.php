@@ -10,10 +10,10 @@
     try {
         $BDD = new PDO('mysql:host=192.168.65.227; dbname=TD2 exo 2 kylian;charset=utf8','kiki', 'kiki');
         //echo '<p>aucun probleme </p>';
-        $donneBDD = $BDD->query("SELECT `nom`,`prénon` FROM `Medecin` WHERE 1");
+        $donneBDD = $BDD->query("SELECT `nom`,`prenom` FROM `medecin` WHERE 1");
     
         while ($tabBdd = $donneBDD -> fetch()){
-            echo '<p>'.$tabBdd["nom"]." ".$tabBdd["prénon"].'</p>';
+            echo '<p>'.$tabBdd["nom"]." ".$tabBdd["prenom"].'</p>';
         }
     }catch(Exception $e){
 
